@@ -1,0 +1,11 @@
+{
+    "name": "Libre Prayer",
+    "short_name": "Libre Prayer",
+    "theme_color": "#fff7ed",
+    "background_color": "#fff7ed",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "https://jamesoconnr.github.io/libreprayer/",
+    "description": "A free, open-source, and ad-free repository of prayers",
+    "orientation": "portrait"
+}
