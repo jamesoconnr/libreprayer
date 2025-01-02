@@ -64,6 +64,7 @@ const showPrayer = (prayer) => {
     prayerSource.href = prayers[prayer].source === "N/A" ? '' : prayers[prayer].source;
     prayerSource.textContent = prayers[prayer].source;
     prayerModal.showModal();
+    prayerModal.scrollTop = 0;
 }
 
 const closePrayer = () => {

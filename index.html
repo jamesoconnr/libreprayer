@@ -67,13 +67,18 @@
         dialog.closing {
             animation: fadeOut 100ms ease-in-out forwards;
         }
+        @media (max-width: 768px) {
+            dialog::backdrop     {
+                background-color: rgba(0, 0, 0, 0.9);
+            }
+        }
     </style>
 </head>
 <body class="font-[nunito] bg-orange-50 p-10">
     <div class="flex min-h-screen min-w-screen justify-center">
         <div class="flex flex-col items-center">
             <h1 class="text-4xl font-extrabold text-orange-950 mb-0">Libre Prayer
-                <h6 class="text-orange-950 text-sm mb-5">A free, open-source, and ad-free repository of prayers</h6>
+                <h6 class="text-orange-950 text-sm mb-5 text-center">A free, <a href="https://github.com/jamesoconnor/libreprayer" target="_blank" class="underline hover:text-orange-800">open-source</a>, and ad-free repository of prayers</h6>
             </h1>
             <div class="relative">
                 <input type="text" id="search-input" class="mb-1 text-l px-3 py-1 pl-9 rounded-full border-2" placeholder="Search for a prayer...">
@@ -85,13 +90,13 @@
         </div>
     </div>
 
-    <dialog id="prayer-modal" class="bg-transparent p-4">
-        <div class="bg-orange-100 p-10 rounded-lg flex flex-col items-center relative max-h-none h-fit max-w-[800px] w-max-content">
-            <h1 id="prayer-title" class="text-2xl font-bold m-5">If you're seeing this, the prayer modal is not working, please contact the developer.</h1>
-            <p id="prayer-text" class="text-xl m-5 whitespace-pre-line">If you're seeing this, the prayer modal is not working, please contact the developer.</p>
+    <dialog id="prayer-modal" class="bg-transparent p-4 fixed inset-0 m-auto h-fit">
+        <div class="bg-orange-100 p-2 md:p-5 rounded-lg flex flex-col items-center relative h-fit w-full max-w-[800px]">
+            <h1 id="prayer-title" class="text-2xl font-bold lg:m-2 m-1 text-center mr-[25px]">If you're seeing this, the prayer modal is not working, please contact the developer.</h1>
+            <p id="prayer-text" class="text-lg md:text-xl lg:m-2 m-1 whitespace-pre-line">If you're seeing this, the prayer modal is not working, please contact the developer.</p>
             
-            <p class="text-orange-950 font-bold m-5">
-                Source: <a id="prayer-source" href="" target="_blank" class="underline hover:text-orange-800"></a>
+            <p class="text-orange-950 text-sm md:text-base font-bold m-3">
+                Source: <a id="prayer-source" href="" target="_blank" class="underline hover:text-orange-800 break-all"></a>
             </p>
             <button onclick="closePrayer()" class="text-orange-950 hover:text-orange-800 font-bold text-2xl absolute top-4 right-4">
                 ✕
@@ -101,8 +106,8 @@
 
     <script src="index.js" defer></script>
     <footer class="text-orange-950 text-sm m-5">
-        <p>Made with ❤️ by <a href="https://github.com/jamesoconnor" target="_blank" class="underline hover:text-orange-800">James O'Connor</a></p>
-        <p>Contact: <a href="mailto:jamesdoconnor2@gmail.com" class="underline hover:text-orange-800">jamesoconnor@gmail.com</a></p>
+        <p>Made️ by <a href="https://github.com/jamesoconnor" target="_blank" class="underline hover:text-orange-800">James O'Connor</a></p>
+        <p>Contact: <a href="mailto:jamesdoconnor2@gmail.com" class="underline hover:text-orange-800">jamesdoconnor2@gmail.com</a></p>
     </footer>
 </body>
 <script>
