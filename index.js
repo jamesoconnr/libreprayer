@@ -86,3 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
+document.getElementById('search-input').addEventListener('input', (e) => {
+    renderPrayerList(e.target.value);
+});
