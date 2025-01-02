@@ -1,0 +1,158 @@
+{
+    "Apostle's Creed": {
+        "title": "Apostle's Creed",
+        "text": "I believe in God,\nthe Father almighty,\nCreator of heaven and earth,\nand in Jesus Christ, his only Son, our Lord,\nwho was conceived by the Holy Spirit,\nborn of the Virgin Mary,\nsuffered under Pontius Pilate,\nwas crucified, died and was buried;\nhe descended into hell;\non the third day he rose again from the dead;\nhe ascended into heaven,\nand is seated at the right hand of God the Father almighty;\nfrom there he will come to judge the living and the dead.\n\nI believe in the Holy Spirit,\nthe holy catholic Church,\nthe communion of saints,\nthe forgiveness of sins,\nthe resurrection of the body,\nand life everlasting.\n\nAmen.",
+        "source": "https://www.usccb.org/prayers/apostles-creed",
+        "author": "N/A"
+    },
+    "Our Father": {
+        "title": "Our Father/Lord's Prayer",
+        "text": "Our Father, who art in heaven,\nhallowed be thy name;\nthy kingdom come,\nthy will be done\non earth as it is in heaven.\nGive us this day our daily bread,\nand forgive us our trespasses,\nas we forgive those who trespass against us;\nand lead us not into temptation,\nbut deliver us from evil.\n\nAmen.",
+        "source": "https://www.usccb.org/prayers/our-father",
+        "author": "Jesus Christ"
+    },
+    "Hail Mary": {
+        "title": "Hail Mary",
+        "text": "Hail Mary, full of grace,\nThe Lord is with thee.\nBlessed art thou among women,\nand blessed is the fruit of thy womb, Jesus.\nHoly Mary, Mother of God,\npray for us sinners,\nnow and at the hour of our death.\nAmen.",
+        "source": "https://www.usccb.org/prayers/hail-mary",
+        "author": "N/A"
+    },
+    "Sign of the Cross": {
+        "title": "Sign of the Cross",
+        "text": "In the name of the Father\nand of the Son\nand of the Holy Spirit. \n\nAmen.",
+        "source": "N/A",
+        "author": "N/A"
+    },
+    "Glory Be": {
+        "title": "Glory Be (Doxology)", 
+        "text": "Glory be to the Father\nand to the Son\nand to the Holy Spirit,\nas it was in the beginning\nis now, and ever shall be\nworld without end.\n\nAmen.",
+        "source": "https://www.usccb.org/prayers/glory-be-doxology",
+        "author": "N/A"
+    },
+    "Guardian Angel Prayer": {
+        "title": "Prayer to Your Guardian Angel",
+        "text": "Angel of God, my guardian dear,\nto whom God's love commits me here,\never this day be at my side,\nto light and guard, to rule and guide.\n\nAmen.",
+        "source": "https://www.usccb.org/prayers/prayer-your-guardian-angel",
+        "author": "N/A"
+    },
+    "Morning Offering": {
+        "title": "Morning Offering",
+        "text": "O Jesus, through the Immaculate Heart of Mary,\nI offer you my prayers, works, joys and sufferings of this day\nfor all the intentions of your Sacred Heart,\nin union with the Holy Sacrifice of the Mass throughout the world,\nfor the salvation of souls, the reparation for sins, the reunion of all Christians,\nand in particular for the intentions of the Holy Father this month.\n\nAmen",
+        "source": "https://www.usccb.org/prayers/morning-offering",
+        "author": "Fr. François-Xavier Gautrelet"
+    },
+    "Nicene Creed": {
+        "title": "Nicene Creed",
+        "text": "I believe in one God,\nthe Father almighty,\nmaker of heaven and earth,\nof all things visible and invisible.\n\nI believe in one Lord Jesus Christ,\nthe Only Begotten Son of God,\nborn of the Father before all ages.\nGod from God, Light from Light,\ntrue God from true God,\nbegotten, not made, consubstantial with the Father;\nthrough him all things were made.\nFor us men and for our salvation\nhe came down from heaven,\nand by the Holy Spirit was incarnate of the Virgin Mary,\nand became man.\nFor our sake he was crucified under Pontius Pilate,\nhe suffered death and was buried,\nand rose again on the third day\nin accordance with the Scriptures.\nHe ascended into heaven\nand is seated at the right hand of the Father.\nHe will come again in glory\nto judge the living and the dead\nand his kingdom will have no end.\n\nI believe in the Holy Spirit, the Lord, the giver of life,\nwho proceeds from the Father and the Son,\nwho with the Father and the Son is adored and glorified,\nwho has spoken through the prophets.\n\nI believe in one, holy, catholic and apostolic Church.\nI confess one Baptism for the forgiveness of sins\nand I look forward to the resurrection of the dead\nand the life of the world to come.\n\nAmen.",
+        "source": "https://www.usccb.org/prayers/nicene-creed",
+        "author": "First Council of Nicaea"
+    },
+    "Gloria": {
+        "title": "Gloria",
+        "text": "Glory to God in the highest.\n\nAnd on earth peace to men of good will.\n\nWe praise You.\n\nWe bless You.\n\nWe adore you.\n\nWe glorify You.\n\nWe give You thanks for Your great glory.\n\nO Lord God, heavenly King, God the Father almighty.\n\nO Lord Jesus Christ, the Only-begotten Son.\n\nO Lord God, Lamb of God, Son of the Father:\n\nYou Who take away the sins of the world,\n\nHave mercy on us.\n\nYou Who take away the sins of the world,\n\nReceive our prayer.\n\nYou Who sit at the right hand of the Father,\n\nHave mercy on us.\n\nFor you alone are holy.\n\nYou alone are the Lord.\n\nYou alone, O Jesus Christ, are most high.\n\nTogether with the Holy Spirit in the glory of God the Father.\n\nAmen.",
+        "source": "https://www.marquette.edu/faith/prayers-gloria.php",
+        "author": "N/A"
+    },
+    "Act of Contrition (Traditional)": {
+        "title": "Act of Contrition (Traditional)",
+        "text": "O my God, I am heartily sorry for having offended Thee, and I detest all my sins because of thy just punishments, but most of all because they offend Thee, my God, who art all good and deserving of all my love. I firmly resolve with the help of Thy grace to sin no more and to avoid the near occasion of sin. Amen.",
+        "source": "https://www.usccb.org/prayers/act-contrition",
+        "author": "N/A"
+    },
+    "Act of Contrition (Contemporary)": {
+        "title": "Act of Contrition",
+        "text": "My God,\nI am sorry for my sins with all my heart.\nIn choosing to do wrong\nand failing to do good,\nI have sinned against you\nwhom I should love above all things.\nI firmly intend, with your help,\nto do penance,\nto sin no more,\nand to avoid whatever leads me to sin.\nOur Savior Jesus Christ suffered and died for us.\nIn his name, my God, have mercy.",
+        "source": "https://www.usccb.org/prayers/act-contrition",
+        "author": "N/A"
+    },
+    "Act of Contrition (Simple)": {
+        "title": "Act of Contrition",
+        "text": "Lord Jesus, Son of God,\nhave mercy on me, a sinner.",
+        "source": "https://www.usccb.org/prayers/act-contrition",
+        "author": "N/A"
+    },
+    "Act of Faith": {
+        "title": "Act of Faith",
+        "text": "O my God, I firmly believe that you are one God in three divine Persons, Father, Son, and Holy Spirit. I believe that your divine Son became man and died for our sins and that he will come to judge the living and the dead. I believe these and all the truths which the Holy Catholic Church teaches because you have revealed them who are eternal truth and wisdom, who can neither deceive nor be deceived. In this faith I intend to live and die. Amen.",
+        "source": "https://www.usccb.org/prayers/act-faith-hope-love",
+        "author": "N/A"
+    },
+    "Act of Hope": {
+        "title": "Act of Hope",
+        "text": "O Lord God, I hope by your grace for the pardon of all my sins and after life here to gain eternal happiness because you have promised it who are infinitely powerful, faithful, kind, and merciful. In this hope I intend to live and die. Amen.",
+        "source": "https://www.usccb.org/prayers/act-faith-hope-love",
+        "author": "N/A"
+    },
+    "Act of Love": {
+        "title": "Act of Love",
+        "text": "O Lord God, I love you above all things and I love my neighbor for your sake because you are the highest, infinite and perfect good, worthy of all my love. In this love I intend to live and die. Amen.",
+        "source": "https://www.usccb.org/prayers/act-faith-hope-love",
+        "author": "N/A"
+    },
+    "Angelus": {
+        "title": "Angelus",
+        "text": "V. The Angel of the Lord declared unto Mary.\n\nR. And she conceived of the Holy Spirit.\n\nHail, Mary, full of grace,\nthe Lord is with thee.\nBlessed art thou among women\nand blessed is the fruit of thy womb, Jesus.\nHoly Mary, Mother of God,\npray for us sinners,\nnow and at the hour of our death. \nAmen.\n\nV. Behold the handmaid of the Lord.\n\nR. Be it done unto me according to thy word.\n\nHail Mary...\n\nV. And the Word was made flesh.\n\nR. And dwelt among us.\n\nHail Mary...\n\nLet us pray:\nPour forth, we beseech thee, O Lord, thy grace into our hearts; that we, to whom the Incarnation of Christ, thy Son, was made known by the message of an angel, may by his Passion and Cross be brought to the glory of his Resurrection. Through the same Christ, our Lord.\n\nAmen.",
+        "source": "https://www.usccb.org/prayers/angelus",
+        "author": "N/A"
+    },
+    "Anima Christi": {
+        "title": "Anima Christi",
+        "text": "\nSoul of Christ, sanctify me.\nBody of Christ, save me.\nBlood of Christ, embolden me.\nWater from the side of Christ, wash me.\nPassion of Christ, strengthen me.\nO good Jesus, hear me.\nWithin your wounds hide me.\nNever permit me to be parted from you.\nFrom the evil Enemy defend me.\nAt the hour of my death call me\nand bid me come to you,\nthat with your Saints I may praise you\nfor age upon age.\nAmen.",
+        "source": "https://www.usccb.org/prayers/anima-christi",
+        "author": "N/A"
+    },
+    "Divine Praises": {
+        "title": "Divine Praises",
+        "text": "Blessed be God.\nBlessed be his holy Name. \nBlessed be Jesus Christ, true God and true man.\nBlessed be the Name of Jesus.\nBlessed be his most Sacred Heart.\nBlessed be his most Precious Blood.\nBlessed be Jesus in the most holy Sacrament of the altar.\nBlessed be the Holy Spirit, the Paraclete.\nBlessed be the great Mother of God, Mary most holy.\nBlessed be her holy and Immaculate Conception.\nBlessed be her glorious Assumption.\nBlessed be the name of Mary, Virgin and Mother.\nBlessed be Saint Joseph, her most chaste Spouse. \nBlessed be God in his Angels and in his Saints.",
+        "source": "https://www.usccb.org/prayers/divine-praises",
+        "author": "N/A"
+    },
+    "Hail Holy Queen": {
+        "title": "Hail, Holy Queen (The Salve Regina)",
+        "text": "Hail, Holy Queen, Mother of Mercy,\nour life, our sweetness and our hope.\nTo thee do we cry, \npoor banished children of Eve.\nTo thee do we send up our sighs,\nmourning and weeping in this valley of tears.\nTurn then, most gracious advocate,\nthine eyes of mercy toward us,\nand after this our exile\nshow unto us the blessed fruit of thy womb, Jesus.\nO clement, O loving,\nO sweet Virgin Mary.",
+        "source": "https://www.usccb.org/prayers/hail-holy-queen",
+        "author": "N/A"
+    },
+    "Memorare": {
+        "title": "Memorare",
+        "text": "Remember, O most gracious Virgin Mary, that never was it known that anyone who fled to thy protection, implored thy help, or sought thy intercession, was left unaided.\n\nInspired by this confidence I fly unto thee, O Virgin of virgins, my Mother.\n\nTo thee do I come, before thee I stand, sinful and sorrowful. \n\nO Mother of the Word Incarnate, despise not my petitions, but in thy mercy hear and answer me.\n\nAmen.",
+        "source": "https://www.usccb.org/prayers/memorare",
+        "author": "N/A"
+    },
+    "O Sacrum Convivium": {
+        "title": "O Sacrum Convivium",
+        "text": "O sacred banquet,\n\nin which Christ is received,\n\nthe memory of his Passion is renewed,\n\nthe mind is filled with grace,\n\nand a pledge of future glory is given to us.",
+        "source": "https://www.usccb.org/prayers/o-sacrum-convivium",
+        "author": "St. Thomas Aquinas"
+    },
+    "Tantum Ergo": {
+        "title": "Tantum Ergo",
+        "text": "Down in adoration falling,\nLo! the sacred Host we hail;\nLo! o'er ancient forms departing,\nNewer rites of grace prevail;\nFaith for all defects supplying,\nWhere the feeble senses fail.\nTo the everlasting Father,\nAnd the Son who reigns on high,\nWith the Holy Spirit proceeding\nForth from each eternally,\nBe salvation, honor, blessing,\nMight and endless majesty. Amen.\n\nV. You have given them bread from heaven,\n\nR. Having all delight within it.\n\nLet us pray.\n\nO God, who in this wonderful Sacrament\nleft us a memorial of your Passion:\ngrant, we implore you,\nthat we may so venerate\nthe sacred mysteries of your Body and Blood,\nas always to be conscious of the fruit of your Redemption.\nYou who live and reign forever and ever. Amen.",
+        "source": "https://www.usccb.org/prayers/tantum-ergo",
+        "author": "St. Thomas Aquinas"
+    },
+    "Fatima Prayer": {
+        "title": "Oh My Jesus",
+        "text": "O my Jesus, forgive us our sins. Save us from the fires of hell. Lead all souls into heaven, especially those in most need of Thy mercy. Amen.",
+        "source": "https://www.catholic.org/prayers/prayer.php?p=203",
+        "author": "N/A"
+    },
+    "Vocation Prayer": {
+        "title": "Prayer to Discern a Vocation",
+        "text": "Lord, my God and my loving Father, you have made me to know you, to love you, to serve you, and thereby to find and to fulfill my deepest longings. I know that you are in all things, and that every path can lead me to you. \n\nBut of them all, there is one especially by which you want me to come to you. Since I will do what you want of me, I pray you, send your Holy Spirit to me: into my mind, to show me what you want of me; into my heart, to give me the determination to do it, and to do it with all my love, with all my mind, and with all of my strength right to the end. Jesus, I trust in you. Amen",
+        "source": "https://www.usccb.org/prayers/prayer-discern-vocation",
+        "author": "N/A"
+    },
+    "Morning Prayer": {
+        "title": "Morning Offering",
+        "text": "O Jesus, through the Immaculate Heart of Mary,\nI offer you my prayers, works, joys and sufferings of this day\nfor all the intentions of your Sacred Heart,\nin union with the Holy Sacrifice of the Mass throughout the world,\nfor the salvation of souls, the reparation for sins, the reunion of all Christians,\nand in particular for the intentions of the Holy Father this month.\n\nAmen",
+        "source": "https://www.usccb.org/prayers/morning-offering-0",
+        "author": "N/A"
+    },
+    "Evening Prayer": {
+        "title": "Evening Prayer",
+        "text": "God, our Father, this day is done.\nWe ask you and Jesus Christ,\nyour Son,\nthat with the Spirit, our welcome\nguest,\nyou guard our sleep and bless \nour rest.\nAmen.",
+        "source": "https://hsp-ht.org/let-us-pray/back-to-basics/",
+        "author": "N/A"
+    } 
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libre Prayer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <style>
+        dialog:not([open]) {
+            display: none;
+        }
+        *:focus-visible {
+           outline: 2px solid #a3a3a3;
+        }
+        input:focus-visible {
+           outline-offset: -2px;
+        }
+        ::backdrop {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        /* Scrollbar styles */
+
+        /* For WebKit browsers (Chrome, Safari, Edge) */
+        ::-webkit-scrollbar {
+            width: 12px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #ffedd5; /* Matches bg-orange-50 */
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #b5a696; /* Matches text-orange-800 */
+            border-radius: 6px;
+            border: 3px solid #ffedd5; /* Creates padding around thumb */
+        }
+
+        /* For Firefox */
+        * {
+            scrollbar-width: thin;
+            scrollbar-color: #b5a696 #ffedd5;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes fadeOut {
+            from { opacity: 1; }
+            to { opacity: 0; }
+        }
+
+        dialog {
+            opacity: 0;
+        }
+
+        dialog[open] {
+            animation: fadeIn 100ms ease-in-out forwards;
+        }
+
+        dialog.closing {
+            animation: fadeOut 100ms ease-in-out forwards;
+        }
+    </style>
+</head>
+<body class="font-[nunito] bg-orange-50 p-10">
+    <div class="flex min-h-screen min-w-screen justify-center">
+        <div class="flex flex-col items-center">
+            <h1 class="text-4xl font-extrabold text-orange-950 mb-0">Libre Prayer
+                <h6 class="text-orange-950 text-sm mb-5">A free, open-source, and ad-free repository of prayers</h6>
+            </h1>
+            <div class="relative">
+                <input type="text" id="search-input" class="mb-1 text-l px-3 py-1 pl-9 rounded-full border-2" placeholder="Search for a prayer...">
+                <span class="absolute left-3 top-1/2 transform -translate-y-1/2">🔍</span>
+            </div>
+            <ul class="list-none text-center text-orange-900">
+                <li class="text-xl font-bold">Loading...</li>
+                <!-- Prayer list will be populated by JavaScript -->
+            </ul>
+        </div>
+    </div>
+
+    <dialog id="prayer-modal" class="bg-transparent p-4">
+        <div class="bg-orange-100 p-10 rounded-lg flex flex-col items-center relative max-h-none h-fit max-w-[800px] w-max-content">
+            <h1 id="prayer-title" class="text-2xl font-bold m-5">If you're seeing this, the prayer modal is not working, please contact the developer.</h1>
+            <p id="prayer-text" class="text-xl m-5 whitespace-pre-line">If you're seeing this, the prayer modal is not working, please contact the developer.</p>
+            
+            <p class="text-orange-950 font-bold m-5">
+                Source: <a id="prayer-source" href="" target="_blank" class="underline hover:text-orange-800"></a>
+            </p>
+            <button onclick="closePrayer()" class="text-orange-950 hover:text-orange-800 font-bold text-2xl absolute top-4 right-4">
+                ✕
+            </button>
+        </div>
+    </dialog>
+
+    <script src="index.js" defer></script>
+    <footer class="text-orange-950 text-sm m-5">
+        <p>Made with ❤️ by <a href="https://github.com/jamesoconnor" target="_blank" class="underline hover:text-orange-800">James O'Connor</a></p>
+        <p>Contact: <a href="mailto:jamesdoconnor2@gmail.com" class="underline hover:text-orange-800">jamesoconnor@gmail.com</a></p>
+    </footer>
+</body>
+</html>
