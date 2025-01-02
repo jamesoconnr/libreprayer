@@ -6,6 +6,7 @@
     <title>Libre Prayer</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="logo.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
@@ -77,9 +78,11 @@
 <body class="font-[nunito] bg-orange-50 p-10">
     <div class="flex min-h-screen min-w-screen justify-center">
         <div class="flex flex-col items-center">
-            <h1 class="text-4xl font-extrabold text-orange-950 mb-0">Libre Prayer
-                <h6 class="text-orange-950 text-sm mb-5 text-center">A free, <a href="https://github.com/jamesoconnor/libreprayer" target="_blank" class="underline hover:text-orange-800">open-source</a>, and ad-free repository of prayers</h6>
+            <h1 class="text-4xl font-extrabold text-orange-950 mb-0 flex items-center">
+                <img src="logo.svg" alt="Libre Prayer" class="h-[2rem] mr-2">
+                Libre Prayer
             </h1>
+            <h6 class="text-orange-950 text-sm mb-5 text-center">A free, <a href="https://github.com/jamesoconnor/libreprayer" target="_blank" class="underline hover:text-orange-800">open-source</a>, and ad-free repository of prayers</h6>
             <div class="relative">
                 <input type="text" id="search-input" class="mb-1 text-l px-3 py-1 pl-9 rounded-full border-2" placeholder="Search for a prayer...">
                 <span class="absolute left-3 top-1/2 transform -translate-y-1/2">🔍</span>
