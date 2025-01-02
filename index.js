@@ -60,7 +60,7 @@ const showPrayer = (prayer) => {
     const prayerSource = document.getElementById('prayer-source');
 
     prayerTitle.textContent = prayers[prayer].title;
-    prayerText.textContent = prayers[prayer].text;
+    prayerText.innerHTML = prayers[prayer].text;
     prayerSource.href = prayers[prayer].source === "N/A" ? '' : prayers[prayer].source;
     prayerSource.textContent = prayers[prayer].source;
     prayerModal.showModal();
