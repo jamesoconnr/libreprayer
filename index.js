@@ -9,6 +9,11 @@ fetch('prayers.json')
             Object.entries(prayers).sort(([a], [b]) => a.localeCompare(b))
         );
         prayers = sortedPrayers;
+        
+        // Calculate max title length and set CSS variable with 'ch'
+        const maxLength = Math.max(...Object.keys(prayers).map(title => title.length));
+        document.documentElement.style.setProperty('--max-title-length', `${maxLength}ch`);
+        
         renderPrayerList();
     })
     .catch(error => console.error('Error loading prayers:', error));
