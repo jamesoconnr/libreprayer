@@ -75,11 +75,12 @@
         }
         .prayer-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(var(--max-title-length), 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(var(--max-title-length), max-content));
+            justify-content: center;
         }
     </style>
 </head>
-<body class="font-[nunito] bg-orange-50 p-10">
+<body class="font-[nunito] bg-orange-50 py-10">
     <div id="offline-notification" class="hidden fixed top-0 left-0 right-0 bg-orange-800 text-white p-2 text-center">
         You are currently offline, meaning your prayer list may not be up to date.
     </div>
