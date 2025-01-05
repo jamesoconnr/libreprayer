@@ -38,7 +38,7 @@ function updateOfflineStatus() {
     }
 }
 
-const getPrayers = (searchTerm = '', perPage = 100) => {
+const getPrayers = (searchTerm = '', category = '') => {
     const allPrayers = Object.keys(prayers);
     let filteredPrayers = allPrayers;
 
@@ -49,8 +49,7 @@ const getPrayers = (searchTerm = '', perPage = 100) => {
         );
     }
 
-    // Return first n results based on perPage parameter
-    return filteredPrayers.slice(0, perPage);
+    return filteredPrayers;
 };
 
 const renderPrayerList = (searchTerm = '') => {
@@ -84,7 +83,7 @@ const showPrayer = (prayer) => {
     const prayerText = document.getElementById('prayer-text');
     const prayerSource = document.getElementById('prayer-source');
 
-    prayerTitle.textContent = prayers[prayer].title;
+    prayerTitle.textContent = prayer;
     prayerText.innerHTML = prayers[prayer].text;
     prayerSource.href = prayers[prayer].source === "N/A" ? '' : prayers[prayer].source;
     prayerSource.textContent = prayers[prayer].source;
