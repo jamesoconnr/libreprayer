@@ -6,7 +6,7 @@ self.addEventListener("install", function(event) {
     console.log("Installing web app");
     return caches.open("offline").then(function(cache) {
       console.log("caching index and important routes");
-      return cache.addAll(["/", "/offline.html", "/prayers.json", "/index.html", "/index.js"]);
+      return cache.addAll(["/", "/prayers.json", "/index.html", "/index.js"]);
     });
   };
   
@@ -42,7 +42,7 @@ self.addEventListener("install", function(event) {
     return caches.open("offline").then(function (cache) {
       return cache.match(request).then(function (matching) {
        if(!matching || matching.status == 404) {
-         return cache.match("offline.html");
+         return cache.match("index.html");
        } else {
          return matching;
        }

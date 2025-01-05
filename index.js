@@ -1,4 +1,5 @@
 let prayers = {};
+let isOnline = navigator.onLine;
 
 // Load prayers when the page loads
 fetch('prayers.json')
@@ -17,6 +18,25 @@ fetch('prayers.json')
         renderPrayerList();
     })
     .catch(error => console.error('Error loading prayers:', error));
+
+window.addEventListener('online', function() {
+    isOnline = true;
+    updateOfflineStatus();
+});
+
+window.addEventListener('offline', function() {
+    isOnline = false;
+    updateOfflineStatus();
+});
+
+function updateOfflineStatus() {
+    const offlineBar = document.getElementById('offline-notification');
+    if (!isOnline) {
+        offlineBar.classList.remove('hidden');
+    } else {
+        offlineBar.classList.add('hidden');
+    }
+}
 
 const getPrayers = (searchTerm = '', perPage = 100) => {
     const allPrayers = Object.keys(prayers);
@@ -91,6 +111,9 @@ document.addEventListener('DOMContentLoaded', () => {
             closePrayer();
         }
     });
+    
+    // Check initial offline status
+    updateOfflineStatus();
 });
 
 document.getElementById('search-input').addEventListener('input', (e) => {
